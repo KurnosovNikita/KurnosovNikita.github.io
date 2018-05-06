@@ -65,18 +65,22 @@ header {
     color: #6391c6;
     background-color: #7ca7d9;
 }
+
 .label-info:hover,
-.label-about:hover{
+.label-about:hover {
     color: #7ca7d9;
     background-color: #6391c6;
 }
+
 .label-tags {
     background: url("../assets/images/label-tags.png") no-repeat;
 }
+
 .label-tags:hover {
     background: #6391c6;
 }
-.label-tags:hover::after{
+
+.label-tags:hover::after {
     content: "";
     background: url("../assets/images/tag.png") no-repeat;
     width: 17px;
@@ -85,8 +89,8 @@ header {
     margin-left: 7px;
     position: absolute;
 }
+
 .label-menu-container {
-    cursor: pointer;
     justify-content: flex-end;
     width: calc(100% - 75px);
     height: 30px;
@@ -118,10 +122,15 @@ header {
 .field-nav ul li {
     margin: 5px 0;
 }
+
 .field-nav ul li a:hover {
     font-weight: 600;
 }
+.field-nav ul li a {
+    cursor: pointer;
+}
 .field-nav a {
+    
     margin-left: 15px;
     text-decoration: none;
     text-shadow: 1px 1px 2px rgba(193, 219, 255, 0.67);
@@ -174,12 +183,14 @@ header {
     font-size: 12px;
     padding-top: 5px;
 }
+
 .page-css,
 .page-html,
 .page-javascript,
-.oage-design{
+.oage-design {
     display: none;
 }
+
 .contant-image {
     margin-bottom: 10px;
     max-width: 100%;
@@ -292,12 +303,15 @@ header {
     width: 100%;
     margin-bottom: 50px;
 }
-.d-flex.hide{
+
+.d-flex.hide {
     display: none;
 }
-.d-flex.hide1{
+
+.d-flex.hide1 {
     display: flex;
 }
+
 .icon-loading {
     animation: 1s linear 0s normal none infinite running rot;
     -webkit-animation: 1s linear 0s normal none infinite running rot;
@@ -305,22 +319,25 @@ header {
     height: 48px;
     background-image: url("../assets/images/onload-icon.png");
 }
+
 @keyframes rot {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
+
 @-webkit-keyframes rot {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
+
 /*SIDEBAR*/
 
 .field-sidebar {

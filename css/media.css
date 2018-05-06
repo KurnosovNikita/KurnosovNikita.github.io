@@ -64,13 +64,13 @@
     .field-nav ul li:nth-child(4) a:hover::after {
         margin-left: -32px;
     }
-    .field-nav ul li:nth-child(1) a.page-checked::after{
+    .field-nav ul li:nth-child(1) a.page-checked::after {
         margin-left: -52px;
     }
-    .field-nav ul li:nth-child(2) a.page-checked::after{
+    .field-nav ul li:nth-child(2) a.page-checked::after {
         margin-left: -26px;
     }
-    .field-nav ul li:nth-child(4) a.page-checked::after{
+    .field-nav ul li:nth-child(4) a.page-checked::after {
         margin-left: -32px;
     }
     .page-checked::after {
@@ -239,13 +239,13 @@
     .field-nav ul li:nth-child(4) a:hover::after {
         margin-left: -32px;
     }
-    .field-nav ul li:nth-child(1) a.page-checked::after{
+    .field-nav ul li:nth-child(1) a.page-checked::after {
         margin-left: -52px;
     }
-    .field-nav ul li:nth-child(2) a.page-checked::after{
+    .field-nav ul li:nth-child(2) a.page-checked::after {
         margin-left: -26px;
     }
-    .field-nav ul li:nth-child(4) a.page-checked::after{
+    .field-nav ul li:nth-child(4) a.page-checked::after {
         margin-left: -32px;
     }
     .label-tags,

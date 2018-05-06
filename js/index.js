@@ -12,9 +12,6 @@ mobileMenu.addEventListener("click", function () {
     }
 });
 navigationTab.addEventListener("click", function (e) {
-    let a = e.target;
-    localStorage.setItem("123", e.target.innerHTML);
-    console.log(e.target);
     switch (e.target.id) {
         case "tab1":
             for (let i = 0; i < 5; i++) {
