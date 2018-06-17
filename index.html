@@ -1,165 +1,161 @@
+<!DOCTYPE HTML>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
+    <title>Storm World</title>
+    <link rel="shortcut icon" href="assets/img/icon.png" type="image/png">
+    <script src="js/jquery/jquery.min.js" defer></script>
+    <script src="js/wow.min.js" defer></script>
+    <script src="js/jquery/jquery.malihu.PageScroll2id.js" defer></script>
     <script src="js/index.js" defer></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-    <header class="d-flex field-header">
-        <a href="index.html">
-            <img src="assets/images/logo-header.png" alt="">
-        </a>
-    </header>
-    <nav class="d-flex field-nav">
-        <div class="label label-about">?</div>
-        <div class="label label-info">!</div>
-        <div class="label label-tags"></div>
-        <ul>
-            <li>
-                <a id="tab1">JAVASCRIPT</a>
-            </li>
-            <li>
-                <a id="tab2">CSS</a>
-            </li>
-            <li>
-                <a class="page-checked" id="tab3">LATEST</a>
-            </li>
-            <li>
-                <a id="tab4">HTML</a>
-            </li>
-            <li>
-                <a id="tab5">DESIGN</a>
-            </li>
-        </ul>
-        <div class="d-flex label-menu-container">
-            <div class="d-flex label-menu"></div>
-        </div>
-    </nav>
-    <main class="d-flex field-main">
-        <div class="d-flex field-main-container">
-            <div class="d-flex news-item item1">
-                <div class="d-flex item-contant">
-                    <img class="d-flex contant-image" src="assets/images/image-contant-1.png" alt="">
-                    <h3 class="d-flex">Blogotitle of blogopost about blogoflowers</h3>
-                    <div class="d-flex info-line">
-                        <span>22:58 Jan 01, 2014</span>
-                        <span>by E. Hyperraccoon</span>
-                        <div class="d-flex social-buttons-black">
-                            <button class="d-flex social-button-facebook">16</button>
-                            <button class="d-flex social-button-google">7</button>
-                            <button class="d-flex social-button-twitter">15</button>
-                            <button class="d-flex social-button-vk">16</button>
-                            <button class="d-flex social-button-yandex">1</button>
-                        </div>
-                    </div>
-                    <p class="d-flex">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit anim id est laborum.
-                    </p>
+    <div class="wrapper">
+        <a href="#top" class="back-to-top"></a>
+        <header class="header" id="section-1">
+            <h1 class="flipInX wow">MAGIC IS COMING</h1>
+            <nav id="nav-bar" class="fadeInDown animated">
+                <div class="logo">
+                    <a href="index.html">
+                        <span>Storm World</span>
+                    </a>
                 </div>
-                <div class="d-flex social-buttons">
-                    <button class="d-flex social-button-facebook">16</button>
-                    <button class="d-flex social-button-google">7</button>
-                    <button class="d-flex social-button-twitter">15</button>
-                    <button class="d-flex social-button-vk">16</button>
-                    <button class="d-flex social-button-yandex">1</button>
+                <ul>
+                    <li>
+                        <a href="#section-1" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="#section-2">About</a>
+                    </li>
+                    <li>
+                        <a href="#section-3">Controls</a>
+                    </li>
+                    <li>
+                        <a href="#section-4">Screenshots</a>
+                    </li>
+                    <li>
+                        <a href="#section-5">Developer</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="container-header wow fadeInLeftBig">
+                <div class="button_hola">
+                    <a href="game.html" target="_blank">PLAY</a>
                 </div>
             </div>
-            <div class="d-flex news-item item2">
-                <div class="d-flex item-contant">
-                    <img class="d-flex contant-image" src="assets/images/image-contant-2.png" alt="">
-                    <h3 class="d-flex">Blogotitle of blogopost about blogoflowers</h3>
-                    <div class="d-flex info-line">
-                        <span>22:58 Jan 01, 2014</span>
-                        <span>by E. Hyperraccoon</span>
-                        <div class="d-flex social-buttons-black">
-                            <button class="d-flex social-button-facebook">16</button>
-                            <button class="d-flex social-button-google">7</button>
-                            <button class="d-flex social-button-twitter">15</button>
-                            <button class="d-flex social-button-vk">16</button>
-                            <button class="d-flex social-button-yandex">1</button>
-                        </div>
-                    </div>
-                    <p class="d-flex">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit anim id est laborum.
-                    </p>
+        </header>
+        <section id="section-2" class="section-about">
+            <div class="container-about-left">
+                <img class=" wow fadeInLeft" src="assets/img/header-man-2.png" alt="">
+            </div>
+            <article class="art-about">
+                <h2 class="slideInDown wow">Some useful information</h2>
+                <div class="resolution item-about">
+                    <img src="assets/img/screen-icon.png" alt="" class="zoomIn wow">
+                    <span class="zoomIn wow">Resolution of the game screen is 1200 x 700</span>
                 </div>
-                <div class="d-flex social-buttons">
-                    <button class="d-flex social-button-facebook">16</button>
-                    <button class="d-flex social-button-google">7</button>
-                    <button class="d-flex social-button-twitter">15</button>
-                    <button class="d-flex social-button-vk">16</button>
-                    <button class="d-flex social-button-yandex">1</button>
+                <div class="technologies item-about">
+                    <img src="assets/img/technologies-icon.png" alt="" class="zoomIn wow">
+                    <span class="zoomIn wow">This game is built using: ES6, HTML5, CSS3, Web Audio API</span>
+                </div>
+                <div class="difficulty item-about">
+                    <img src="assets/img/difficulty-icon.png" alt="" class="zoomIn wow">
+                    <span class="zoomIn wow">Storm World is not hard game if you know some Math and English. It expects you to fail time and time
+                        again.
+                    </span>
+                </div>
+            </article>
+        </section>
+        <section id="section-3" class="section-controls">
+            <article class="art-controls">
+                <h2 class="slideInDown wow">CONTROLS</h2>
+                <div class="resolution item-controls">
+                    <img src="assets/img/spell-btn-controls.png" alt="" class="wow fadeInLeftBig">
+                    <span class="wow fadeInRight">Press this button to open spells menu</span>
+                </div>
+                <div class="technologies item-controls">
+                    <span class="wow fadeInLeft">You have option to choose any of 4 spells and complete a task to cast this spell</span>
+                    <img src="assets/img/spell-menu-controls.png" alt="" class="wow fadeInRightBig">
+                </div>
+                <div class="difficulty item-controls">
+                    <img src="assets/img/surrender-btn-controls.png" alt="" class="wow fadeInLeftBig">
+                    <span class="wow fadeInRight">Or you can just give up if you are weak in spirit
+                    </span>
+                </div>
+            </article>
+        </section>
+        <section id="section-4" class="section-screenshots">
+            <h2 class="slideInDown wow">SCREENSHOTS</h2>
+            <div id="gallery" class="screenshots">
+                <div id="panel" class="panel wow zoomIn">
+                    <img id="largeImage" class="largeImage" src="assets/img/screenshots/screenshot-menu.png" />
+                    <div id="description" class="description">Main manu</div>
+                </div>
+                <div id="min-screenshots" class="min-screenshots wow fadeInLeftBig">
+                    <img src="assets/img/screenshots/screenshot-menu.png" alt="Main manu" />
+                    <img src="assets/img/screenshots/screenshot-reg.png" alt="Registration menu" />
+                    <img src="assets/img/screenshots/screenshot-records.png" alt="Records" />
+                    <img src="assets/img/screenshots/screenshot-choose-hero.png" alt="Hero settings" />
+                    <img src="assets/img/screenshots/screenshot-battle.png" alt="Battle" />
+                </div>
+                <div id="min-screenshots2" class="min-screenshots wow fadeInRightBig">
+                    <img src="assets/img/screenshots/screenshot-spell-menu.png" alt="Spell menu" />
+                    <img src="assets/img/screenshots/screenshot-math-task.png" alt="Math task" />
+                    <img src="assets/img/screenshots/screenshot-earth.png" alt="EathShake Spell" />
+                    <img src="assets/img/screenshots/screenshot-lvl-complete.png" alt="Level Complete" />
+                    <img src="assets/img/screenshots/screenshot-game-over.png" alt="Game Over" />
                 </div>
             </div>
-            <div class="d-flex icon-loading-container">
-                <div class="icon-loading"></div>
+        </section>
+        <section id="section-5" class="section-developer">
+            <h2 class="slideInDown wow">DEVELOPER</h2>
+            <div class="container">
+                <img src="assets/img/developer.png" alt="" class="wow zoomIn">
+                <h3 class="fadeInUpBig wow">Kurnosov Nikita</h3>
+                <span class="fadeInUpBig wow">Front-end Developer</span>
+                <div class="social-icons wow fadeInUpBig">
+                    <a href="https://vk.com/nikitaks" target="_blank">
+                        <div class="icon"></div>
+                    </a>
+                    <a href="https://www.facebook.com/kurnosov.nikita" target="_blank">
+                        <div class="icon"></div>
+                    </a>
+                    <a href="https://twitter.com/KurnosovNikita" target="_blank">
+                        <div class="icon"></div>
+                    </a>
+                    <a href="https://github.com/KurnosovNikita" target="_blank">
+                        <div class="icon"></div>
+                    </a>
+                </div>
             </div>
-        </div>
-
-        <div class="d-flex field-sidebar">
-            <div class="d-flex field-about show-field-about">
-                <h2>ABOUT</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                    anim id est laborum.
-                </p>
+        </section>
+        <footer class="footer" id="section-5">
+            <div class="container wow fadeInLeftBig">
+                <span>Kurnosov Nikita © 2018</span>
             </div>
-            <div class="d-flex field-info show-field-info">
-                <h2>SOME INFO</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla pariatur.
-                </p>
+            <div class="social-icons wow fadeInRightBig">
+                <a href="https://vk.com/nikitaks" target="_blank">
+                    <div class="icon"></div>
+                </a>
+                <a href="https://www.facebook.com/kurnosov.nikita" target="_blank">
+                    <div class="icon"></div>
+                </a>
+                <a href="https://twitter.com/KurnosovNikita" target="_blank">
+                    <div class="icon"></div>
+                </a>
+                <a href="https://github.com/KurnosovNikita" target="_blank">
+                    <div class="icon"></div>
+                </a>
             </div>
-            <div class="d-flex field-tags show-field-tags">
-                <div class="tag">Raccoon</div>
-                <div class="tag">Raccoon</div>
-                <div class="tag">Coon</div>
-                <div class="tag">Dog</div>
-                <div class="tag">Cat</div>
-                <div class="tag">Developer</div>
-                <div class="tag">Raccoon</div>
-                <div class="tag">Raccoon</div>
-                <div class="tag">Coon</div>
-                <div class="tag">Dog</div>
-                <div class="tag">Cat</div>
-                <div class="tag">Developer</div>
-                <div class="tag">Raccoon</div>
-                <div class="tag">Raccoon</div>
-                <div class="tag">Coon</div>
-                <div class="tag">Dog</div>
-                <div class="tag">Cat</div>
-                <div class="tag">Developer</div>
-                <div class="tag">Raccoon</div>
-                <div class="tag">Raccoon</div>
-                <div class="tag">Coon</div>
-                <div class="tag">Dog</div>
-                <div class="tag">Cat</div>
-                <div class="tag">Developer</div>
-            </div>
-        </div>
-        <div class="page-css"></div>
-        <div class="page-html"></div>
-        <div class="page-javascript"></div>
-        <div class="page-design"></div>
-        </div>
-    </main>
+        </footer>
+    </div>
 </body>
 
 </html>

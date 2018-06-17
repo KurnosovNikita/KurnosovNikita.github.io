@@ -1,0 +1,42 @@
+{
+    "data": [{
+        "url": "assets/audio/listening/audio-teacher.mp3",
+        "word": ["teacher", "Teacher"]
+    }, {
+        "url": "assets/audio/listening/audio-driver.mp3",
+        "word": ["driver", "Driver"]
+    }, {
+        "url": "assets/audio/listening/audio-job.mp3",
+        "word": ["job", "Job"]
+    }, {
+        "url": "assets/audio/listening/audio-work.mp3",
+        "word": ["work", "Work"]
+    }, {
+        "url": "assets/audio/listening/audio-doctor.mp3",
+        "word": ["doctor", "Doctor"]
+    }, {
+        "url": "assets/audio/listening/audio-student.mp3",
+        "word": ["student", "Student"]
+    }, {
+        "url": "assets/audio/listening/audio-apple.mp3",
+        "word": ["apple", "Apple"]
+    }, {
+        "url": "assets/audio/listening/audio-mouse.mp3",
+        "word": ["mouse", "Mouse"]
+    }, {
+        "url": "assets/audio/listening/audio-brother.mp3",
+        "word": ["brother", "Brother"]
+    }, {
+        "url": "assets/audio/listening/audio-sister.mp3",
+        "word": ["sister", "Sister"]
+    }, {
+        "url": "assets/audio/listening/audio-father.mp3",
+        "word": ["father", "Father"]
+    }, {
+        "url": "assets/audio/listening/audio-mother.mp3",
+        "word": ["mother", "Mother"]
+    }, {
+        "url": "assets/audio/listening/audio-computer.mp3",
+        "word": ["computer", "Computer"]
+    }]
+}
