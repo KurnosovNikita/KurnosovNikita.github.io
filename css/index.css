@@ -329,7 +329,7 @@ nav ul li {
     color: white;
     position: absolute;
     bottom: 2px;
-    left: 428px;
+    left: 0;
     padding: 10px 20px;
     width: 508px;
     margin: 5px;
@@ -337,7 +337,8 @@ nav ul li {
 }
 
 .panel {
-    margin-bottom: 20px;
+    width: 560px;
+    margin: 0 auto 20px;
     text-align: center;
     position: relative;
 }
